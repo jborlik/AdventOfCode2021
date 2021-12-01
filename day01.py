@@ -48,3 +48,11 @@ winvals = np.array(winvals)
 diff = np.diff(winvals)
 diffg0 = diff > 0
 print(np.count_nonzero(diffg0))
+
+
+#  NOTE:  The best answer to this was on Reddit by miran1
+#  https://www.reddit.com/r/adventofcode/comments/r66vow/2021_day_1_solutions/
+#       solve = lambda data, diff: sum(b > a for a, b in zip(data, data[diff:]))
+#       print(solve(data, 1))
+#       print(solve(data, 3))
+
