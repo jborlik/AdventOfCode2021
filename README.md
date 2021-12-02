@@ -7,6 +7,7 @@ Code is tested with Python 3.8.3 (Anaconda distribution) on Win10. Developed wit
 ## Days
 
 * Day 1:  Numpy functions for computing array differences.  Stumbled a bit with a sliding array on part 2.  I got to it late, but it took only a couple of minutes.
+* Day 2:  Simple command processor.  Finished  part 1 in 00:06:12, rank 4197, and part 2 in 00:08:58, rank 3473.
 
 
 
