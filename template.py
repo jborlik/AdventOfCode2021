@@ -8,7 +8,7 @@ import time
 #import pprint
 
 
-with open('day17.dat') as datafile:
+with open('day17.txt') as datafile:
     alldata = [x.strip() for x in datafile.readlines()]
 
 testdata = [x.strip() for x in """class: 1-3 or 5-7
@@ -34,12 +34,13 @@ thedata = testdata
 #  Part 1
 # ------------------------------------------------------------------------------------
 
+if True:
 
-START = time.perf_counter()
+    START = time.perf_counter()
 
 
-END = time.perf_counter()
-print(f"Time taken for part 1: {END - START} seconds")
+    END = time.perf_counter()
+    print(f"Time taken for part 1: {END - START} seconds")
 
 
 # ------------------------------------------------------------------------------------
