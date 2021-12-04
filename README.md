@@ -9,7 +9,7 @@ Code is tested with Python 3.9.7 (Anaconda distribution) on Win10. Developed wit
 * Day 1:  Numpy functions for computing array differences.  Stumbled a bit with a sliding array on part 2.  I got to it late, but it took only a couple of minutes.
 * Day 2:  Simple command processor.  Finished  part 1 in 00:06:12, rank 4197, and part 2 in 00:08:58, rank 3473.
 * Day 3:  Iterate through a list to compare bits.  Gosh a lot of code (straightforward), but I suspect that the people who did it in 10 minutes had some insight.  Part 1:  00:15:32, rank 5439.  Part 2: 00:32:18, rank 2813.
-
+* Day 4:  Bingo!  I used numpy for row/col comparisons, but there was still a lot of code.  Part 1: 00:44:55, rank  4466.  Part 2: 01:05:44, rank 4869.
 
 
 
