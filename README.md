@@ -12,6 +12,7 @@ Code is tested with Python 3.9.7 (Anaconda distribution) on Win10. Developed wit
 * Day 4:  Bingo!  I used numpy for row/col comparisons, but there was still a lot of code.  Part 1: 00:44:55, rank  4466.  Part 2: 01:05:44, rank 4869.
 * Day 5:  Counting the times that a line enters into a cell.  Straightforward using the trick of tracking a dict of tuple(x,y) points for keys and number of times referenced as values.  Part 1:  00:39:29, rank 5363.  Part 2: 00:47:59, rank  3980.
 * Day 6:  Growth/doubling cycles.  Did it the naive way (modeling each item/fish separately in the manner described in the instructions) for part 1, but that was not nearly fast enough as the number of items grew.  The trick was to bin the items (using collections.Counter/dict) and manage them as groups.    Part 1: 00:11:41, rank 3861.  Part 2: 00:44:57, rank 5412.
+* Day 7:  Find point that has the minimum distance to all datapoints.  Part 2 had a stranger distance function, but precomputed some distance values.  (No time/rank due to the page being disabled!  Finished in about 30 min, though.)
 
 
 
