@@ -2,10 +2,11 @@
 #import numpy as np
 #import copy
 #import re   # r = re.compile(r'xxx'), m = r.match(str), print(m[1])
-#import collections
+#import collections  # including deque
 #import math
 import time
 #import pprint
+#from dataclasses import dataclass, field
 
 
 with open('day17.txt') as datafile:

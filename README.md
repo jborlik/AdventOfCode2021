@@ -15,6 +15,8 @@ Code is tested with Python 3.9.7 (Anaconda distribution) on Win10. Developed wit
 * Day 7:  Find point that has the minimum distance to all datapoints.  Part 2 had a stranger distance function, but precomputed some distance values.  (No time/rank due to the page being disabled!  Finished in about 30 min, though.)
 * TODO Day 8:  Got part 1, didn't get part 2!!!  Have to deduce numbers represented by 7-line shapes.
 * Day 9:  Finding the low points given a 2D array of heights, and then (part 2) find the basins that surround the low points.  Did it with just basic python, but a numpy solution would maybe have been nicer (+ visualization would be easier).  Finished in about 45 minutes.
+* Day 10:  Parse a tree of open/close markup, and find errors and incompleteness.  Used dataclass for the tree node (Chunk). It took me almost two hours, and I am amazed that some did it in about ten minutes.  Looking at some of the other solutions on Reddit, a much easier implementation would have been to use a single stack rather than developing the entire parse tree.
+* Day 11:  Integer np matrix to track "energy levels" at positions, with rules to propagate to neighbors after they reached a certain level.  Part 2 was continuing the process until they all blinked at the same time.
 
 
 
