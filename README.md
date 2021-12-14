@@ -18,6 +18,7 @@ Code is tested with Python 3.9.7 (Anaconda distribution) on Win10. Developed wit
 * Day 10:  Parse a tree of open/close markup, and find errors and incompleteness.  Used dataclass for the tree node (Chunk). It took me almost two hours, and I am amazed that some did it in about ten minutes.  Looking at some of the other solutions on Reddit, a much easier implementation would have been to use a single stack rather than developing the entire parse tree.
 * Day 11:  Integer np matrix to track "energy levels" at positions, with rules to propagate to neighbors after they reached a certain level.  Part 2 was continuing the process until they all blinked at the same time.
 * Day 12:  Computing the number of paths through a connected graph, with some of the nodes (lowercase ones) only allowing one entry.  Part two was allowing only one lowercase node to be passed twice.  This was the longest computation time for Part 2 that still successfully completed for me.
+* Day 13:  Matrix manipulation with numpy, to "fold" a paper.  Showed the resulting pattern via matplotlib imshow.  Lots of indexing errors.
 
 
 
