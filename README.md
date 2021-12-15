@@ -20,7 +20,7 @@ Code is tested with Python 3.9.7 (Anaconda distribution) on Win10. Developed wit
 * Day 12:  Computing the number of paths through a connected graph, with some of the nodes (lowercase ones) only allowing one entry.  Part two was allowing only one lowercase node to be passed twice.  This was the longest computation time for Part 2 that still successfully completed for me.
 * Day 13:  Matrix manipulation with numpy, to "fold" a paper.  Showed the resulting pattern via matplotlib imshow.  Lots of indexing errors.
 * -TODO Day 14-:  Part 1 complete, but part 2 execution time is way to long.  Maybe a depth-first strategy?  Some sort of cycle that can be analytically solved?
-* Day 15:  Computing the least-cost path across a weighted grid.  A borrowed an algorithm from [Red Blog Games](https://www.redblobgames.com/pathfinding/a-star/implementation.html) to do this, and altered it to take weights as a numpy array.  This was actually my highest score so far this year.
+* Day 15:  Computing the least-cost path across a weighted grid.  A borrowed an algorithm from [Red Blob Games](https://www.redblobgames.com/pathfinding/a-star/implementation.html) to do this, and altered it to take weights as a numpy array.  This was actually my highest score so far this year.
 
 
 
